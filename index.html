@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music playerr</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu_side">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Last playing</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h4>
+            </div>
+            <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="/IMG/nullimg.jpg" alt="">
+                    <h5>
+                        TenBaiHat1
+                        <div class="subtitle">Bui Anh Tuan</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="/IMG/nullimg.jpg" alt="">
+                    <h5>
+                        TenBaiHat2
+                        <div class="subtitle">Bui Anh Tuan</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="/IMG/nullimg.jpg" alt="">
+                    <h5>
+                        TenBaiHat3
+                        <div class="subtitle">Bui Anh Tuan</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="/IMG/nullimg.jpg" alt="">
+                    <h5>
+                        TenBaiHat4
+                        <div class="subtitle">Bui Anh Tuan</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="/IMG/nullimg.jpg" alt="">
+                    <h5>
+                        TenBaiHat5
+                        <div class="subtitle">Bui Anh Tuan</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="/IMG/nullimg.jpg" alt="">
+                    <h5>
+                        TenBaiHat6
+                        <div class="subtitle">Bui Anh Tuan</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                </li>
+            </div>
+        </div>
+
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li>DISCOVER<span></span></li>
+                    <li>MY LIBRARY</li>
+                    <li>RADIO</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Look for your fav song ...">
+                </div>
+                <div class="user">
+                    <img src="./IMG/ava.jpg" alt="User" title="hgngminh">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>Nơi tình yêu kết thúc</h1>
+                <p>
+                    Người yêu ơi ngoài kia mùa đông đã rơi <br>
+                    Lạnh không em lẻ loi bàn tay rã rời <br>
+                    Lạc mất nhau từ đâu mà bao yêu dấu vẫn nơi này <br>
+                    Để nhớ thương đầy vơi vương trên môi mắt cay <br>
+                </p>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Poppular song</h4>
+                    <div class="btn_s">
+                        <i id="left_scroll" class="bi bi-arrow-left-circle-fill"></i>
+                        <i id="right_scroll" class="bi bi-arrow-right-circle-fill"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/IMG/nullimg.jpg" alt="Song1">
+                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>TenBaiHat7 <br>
+                            <div class="subtitle">Bui Anh Tuan</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/IMG/nullimg.jpg" alt="Song1">
+                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>TenBaiHat7 <br>
+                            <div class="subtitle">Bui Anh Tuan</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/IMG/nullimg.jpg" alt="Song1">
+                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>TenBaiHat7 <br>
+                            <div class="subtitle">Bui Anh Tuan</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/IMG/nullimg.jpg" alt="Song1">
+                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>TenBaiHat7 <br>
+                            <div class="subtitle">Bui Anh Tuan</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/IMG/nullimg.jpg" alt="Song1">
+                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>TenBaiHat7 <br>
+                            <div class="subtitle">Bui Anh Tuan</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/IMG/nullimg.jpg" alt="Song1">
+                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>TenBaiHat7 <br>
+                            <div class="subtitle">Bui Anh Tuan</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/IMG/nullimg.jpg" alt="Song1">
+                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>TenBaiHat7 <br>
+                            <div class="subtitle">Bui Anh Tuan</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/IMG/nullimg.jpg" alt="Song1">
+                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>TenBaiHat7 <br>
+                            <div class="subtitle">Bui Anh Tuan</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/IMG/nullimg.jpg" alt="Song1">
+                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>TenBaiHat7 <br>
+                            <div class="subtitle">Bui Anh Tuan</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/IMG/nullimg.jpg" alt="Song1">
+                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>TenBaiHat7 <br>
+                            <div class="subtitle">Bui Anh Tuan</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/IMG/nullimg.jpg" alt="Song1">
+                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>TenBaiHat7 <br>
+                            <div class="subtitle">Bui Anh Tuan</div>
+                        </h5>
+                    </li>
+                </div>
+            </div>
+            <div class="popular_artist">
+                <div class="h4">
+                    <h4>Poppular Artists</h4>
+                    <div class="btn_s">
+                        <i id="left_scroll" class="bi bi-arrow-left-circle-fill"></i>
+                        <i id="right_scroll" class="bi bi-arrow-right-circle-fill"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <li>
+                        <img src="./IMG/nullimg.jpg" alt="" title="Singer1">
+                    </li>
+                    <li>
+                        <img src="./IMG/nullimg.jpg" alt="" title="Singer1">
+                    </li>
+                    <li>
+                        <img src="./IMG/nullimg.jpg" alt="" title="Singer1">
+                    </li>
+                    <li>
+                        <img src="./IMG/nullimg.jpg" alt="" title="Singer1">
+                    </li>
+                    <li>
+                        <img src="./IMG/nullimg.jpg" alt="" title="Singer1">
+                    </li>
+                    <li>
+                        <img src="./IMG/nullimg.jpg" alt="" title="Singer1">
+                    </li>
+                    <li>
+                        <img src="./IMG/nullimg.jpg" alt="" title="Singer1">
+                    </li>
+                    <li>
+                        <img src="./IMG/nullimg.jpg" alt="" title="Singer1">
+                    </li>
+                    <li>
+                        <img src="./IMG/nullimg.jpg" alt="" title="Singer1">
+                    </li>
+                    <li>
+                        <img src="./IMG/nullimg.jpg" alt="" title="Singer1">
+                    </li>
+                    <li>
+                        <img src="./IMG/nullimg.jpg" alt="" title="Singer1">
+                    </li>
+                    <li>
+                        <img src="./IMG/nullimg.jpg" alt="" title="Singer1">
+                    </li>
+                    <li>
+                        <img src="./IMG/nullimg.jpg" alt="" title="Singer1">
+                    </li>
+                </div>
+            </div>
+        </div>
+
+        <div class="master_play">
+            <div class="wave">
+                <div class="wave1"> </div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="./IMG/anh1.jpg" alt="Bui Anh Tuan">
+            <h5>TenBaiHat1<br>
+                <div class="subtitle">Bui Anh Tuan</div>
+            </h5>
+            <div class="icon">
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="masterPlay"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:00</span>
+            <div class="vol">
+                <i class="bi bi-volume-down-fill"></i>
+                <input type="range" id="vol" min="0" value="0" max="100">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
